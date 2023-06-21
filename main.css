@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+    background: #161616;
+}
+
+h1{
+
+    text-transform: initial;
+    text-align: center;
+ }
+
+ .center{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 4px;
+ }
+ .credit{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: initial;
+ }
+ p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+ }
+ .download{
+
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0%);
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: 0.5s;
+        background: #1b1b1b;
+    }
+    .download:hover{
+        background: #fff;
+        color: #1b1b1b;
+    }
+    a{
+        color: #fff;
+
+        position: relative;
+        left: 50%;
+
+        letter-spacing: 4px;
+        transform: translate(-50%,0%);
+        
+    }
+    a:hover{
+        color: #bdbdbd;
+    }
